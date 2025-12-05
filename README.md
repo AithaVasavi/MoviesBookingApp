@@ -131,22 +131,65 @@ Admin features modify DB using MovieDAO.
 
 -----
 
+# ⚙️ Setup Instructions  
+# 📥 Clone the Repository  
+git clone https://github.com/<your-username>/MovieBookingApp.git  
+cd MovieBookingApp  
+# 📦 Configure MySQL Database  
+Import the SQL schema above and update credentials inside:  
+/src/main/java/com/util/DBConnection.java  
+# ▶️ Run on Tomcat  
+1.Build WAR or run via Eclipse/IntelliJ  
+
+2.Deploy to Tomcat /webapps/  
+
+3.Open browser:  
+http://localhost:8080/MoviesBookingApp/  
+
+-----
+
 # 📊 Results 
 # 🔐 1. Login / Register Page  
 
-![Login Page](Screenshot%20(168).png)
-🎞️ 2. Home Page with Movie Posters
+![Login Page](Screenshot%20(168).png)  
 
-📸 (Add screenshot here)
+# 🎞️ 2. Dashboard Page  
 
-📝 3. Booking Page
+![Dashboard](Screenshot%20(169).png)  
 
-📸 (Add screenshot here)
+# 📝 3. Booking Ticket Page  
 
-📜 4. My Bookings Page
+![Book Tickets](Screenshot%20(170).png)  
 
-📸 (Add screenshot here)
+# 📜 4. My Bookings Page  
 
-🛠️ 5. Admin Movie Management
+![My Bookings](Screenshot%20(171).png)  
 
-📸 (Add screenshot here)
+# 🛠️ 5. Upcoming Movies Page    
+
+![Upcoming Movies](Screenshot%20(172).png)  
+
+-----
+
+# 🛡️ Notes & Limitations  
+
+1.Passwords stored as plain text in basic version → use hashing (BCrypt) for production  
+
+2.DAO layer is simple JDBC → can upgrade to Hibernate or Spring Data  
+
+3.No role-based authorization (Admin/User) unless implemented manually  
+
+4.Session handling is basic — extend for security  
+
+-----
+
+# 📜 License  
+
+MIT License — free to use, modify, distribute.  
+
+-----
+
+# 👨‍💻 Developed By  
+
+Vasavi   
+📧 vasavi9354@gmail.com  
