@@ -134,7 +134,7 @@ Admin features modify DB using MovieDAO.
 # 📊 Results 
 # 🔐 1. Login / Register Page  
 
-![Results_1](Screenshot(168).png)
+![Login](Screenshot(168).png)
 
 🎞️ 2. Home Page with Movie Posters
 
