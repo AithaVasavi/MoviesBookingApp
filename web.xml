@@ -1,0 +1,84 @@
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd" id="WebApp_ID" version="6.0">
+<display-name>MovieBookingSystem</display-name>
+<welcome-file-list>
+<welcome-file>index.html</welcome-file>
+<welcome-file>Login.jsp</welcome-file>
+<welcome-file>Register.jsp</welcome-file>
+<welcome-file>User/home.jsp</welcome-file>
+<welcome-file>Admin/home.jsp</welcome-file>
+<welcome-file>myBookings.jsp</welcome-file>
+<welcome-file>cancelBooking.jsp</welcome-file>
+<welcome-file>changeCredentials.jsp</welcome-file>
+<welcome-file>changeMovies.jsp</welcome-file>
+<welcome-file>changeUpcoming.jsp</welcome-file>
+<welcome-file>editUpcoming.jsp</welcome-file>
+<welcome-file>index.htm</welcome-file>
+<welcome-file>default.html</welcome-file>
+<welcome-file>default.jsp</welcome-file>
+<welcome-file>default.htm</welcome-file>
+</welcome-file-list>
+<servlet>
+<servlet-name>LoginServlet</servlet-name>
+<servlet-class>com.controller.LoginServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>LoginServlet</servlet-name>
+<url-pattern>/LoginServlet</url-pattern>
+</servlet-mapping>
+<servlet>
+<servlet-name>RegisterServlet</servlet-name>
+<servlet-class>com.controller.RegisterServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>RegisterServlet</servlet-name>
+<url-pattern>/RegisterServlet</url-pattern>
+</servlet-mapping>
+<servlet>
+<servlet-name>LogoutServlet</servlet-name>
+<servlet-class>com.controller.LogoutServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>LogoutServlet</servlet-name>
+<url-pattern>/LogoutServlet</url-pattern>
+</servlet-mapping>
+<!--   <servlet>
+    <servlet-name>BookTicketServlet</servlet-name>
+    <servlet-class>com.controller.BookTicketServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>BookTicketServlet</servlet-name>
+    <url-pattern>/BookTicketServlet</url-pattern>
+</servlet-mapping>  -->
+<servlet>
+<servlet-name>changeCrendentialsServlet</servlet-name>
+<servlet-class>com.controller.changeCrendentialsServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>changeCrendentialsServlet</servlet-name>
+<url-pattern>/changeCrendentialsServlet</url-pattern>
+</servlet-mapping>
+<servlet>
+<servlet-name>changeMoviesServlet</servlet-name>
+<servlet-class>com.controller.changeMoviesServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>changeMoviesServlet</servlet-name>
+<url-pattern>/changeMoviesServlet</url-pattern>
+</servlet-mapping>
+<servlet>
+<servlet-name>UpdateUpcomingServlet</servlet-name>
+<servlet-class>com.controller.UpdateUpcomingServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>UpdateUpcomingServlet</servlet-name>
+<url-pattern>/UpdateUpcomingServlet</url-pattern>
+</servlet-mapping>
+<servlet>
+<servlet-name>changeUpcomingServlet</servlet-name>
+<servlet-class>com.controller.changeUpcomingServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>changeUpcomingServlet</servlet-name>
+<url-pattern>/changeUpcomingServlet</url-pattern>
+</servlet-mapping>
+</web-app>
