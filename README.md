@@ -134,7 +134,7 @@ Admin features modify DB using MovieDAO.
 # 📊 Results / Screenshots (Placeholders for GitHub)  
 # 🔐 1. Login / Register Page  
 
-
+![Result_1](Screenshot(168).png)
 
 🎞️ 2. Home Page with Movie Posters
 
