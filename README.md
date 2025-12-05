@@ -43,7 +43,7 @@ Built as a full-stack Java web application following MVC architecture with DAOs,
 
 # 🧱 Project Structure  
 
-📁 MovieBookingApp/  
+📁 MoviesBookingApp/  
 │
 ├── 📁 src/main/java/com/model/          # Model classes  
 │     ├── User.java  
@@ -133,8 +133,8 @@ Admin features modify DB using MovieDAO.
 
 # ⚙️ Setup Instructions  
 # 📥 Clone the Repository  
-git clone https://github.com/<your-username>/MovieBookingApp.git  
-cd MovieBookingApp  
+git clone https://github.com/<your-username>/MoviesBookingApp.git  
+cd MoviesBookingApp  
 # 📦 Configure MySQL Database  
 Import the SQL schema above and update credentials inside:  
 /src/main/java/com/util/DBConnection.java  
